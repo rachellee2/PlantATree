@@ -3,11 +3,9 @@
     padding: 0%;
 }
 body{
-    background-image: url(images/tree2.jpg);
-    background-position: left;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-attachment: fixed;	
+    background-image: url(images/tree.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #container{
     
@@ -21,9 +19,7 @@ header{
 #main{
     
     background-color: rgba(255, 255, 255, 0.3);
-	height: 70%;
-	border-top: solid;
-
+    height: 70%;
 }
 
 footer{
@@ -34,13 +30,15 @@ footer{
 }
 .wrapper1{
 	margin: 0 auto 0;
-	width: 100%;
+	width: 800px;
 	height: 106px;
+	
 }
 .nav{
-	margin:-48px auto ;
-	background-color: black;
-	width: 100%;
+	margin:-30px auto;
+	background-color: rgba(17, 2, 2, 0.3);
+	width: 710px;
+	
 	
 }
 ul{
@@ -54,6 +52,8 @@ li{
 	display: block;
 	float:left;
 	margin: 2px;
+	border-left: solid;
+	border-right: solid;
 	
 }
 li a{
