@@ -71,3 +71,17 @@ li a:hover{
 
 	background-color:hsl(344, 6%, 34%);
 }
+
+.wrapper2{
+	width: 800px;
+	margin: 0 auto 0;
+	height: 100%;
+	box-shadow: 5px 10px 20px green inset;
+	padding: 0 50px;
+
+}
+.wrapper3{
+	width: 600px;
+	margin: 0 auto 0;
+	height: 20%;
+}
