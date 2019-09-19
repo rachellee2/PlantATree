@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0%;
     padding: 0%;
@@ -99,3 +100,77 @@ li a:hover{
 .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+=======
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(images/tree.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#container{
+    
+    
+}
+header{
+    height: 20%;
+	background-color: #404040;
+	border-bottom: solid;
+}
+#main{
+    
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 70%;
+}
+
+footer{
+    height: 10%;
+    background-color: #404040; 
+    border-top: solid;
+}
+.wrapper1{
+	margin: 0 auto 0;
+	width: 800px;
+	height: 106px;
+	
+}
+.nav{
+	margin:-30px auto;
+	background-color: rgba(17, 2, 2, 0.3);
+	width: 710px;
+	
+}
+ul{
+	position: relative;
+	margin: 3em 0;
+	height: 50px;
+}
+
+li{
+	list-style:none;
+	display: block;
+	float:left;
+	margin: 2px;
+	border-left: solid;
+	border-right: solid;
+	
+}
+li a{
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	padding: 5px;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18pt;
+	margin: 3px 20px;
+	
+}
+li a:hover{
+
+	background-color:hsl(344, 6%, 34%);
+}
+>>>>>>> 60551005388751029fff69bddf8984c591a7c44d
