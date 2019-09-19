@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TreeCo</title>
+    <link rel="stylesheet" type="text/css" href="cart.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="wrapper1">
+                <h1><br>TreeCo</h1>
+                <div class="nav">
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="special.html">Specials</a></li>
+                        <li><a href="stores.html">Stores</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="about.html">Contact Us</a></li>
+                    </ul>	
+                </div>
+            </div>
+        </header>
+            
+        <!-- Page Name -->
+        <div class="page_name">
+            <h3>SHOPPING CART</h3>
+        </div>
+
+        <div id="shopping_cont">
+            <!-- Item 1 -->
+            <div id="item1" class="item">
+
+                <!-- Item Delete Button -->
+                <button class="btn_del" onclick="remove_item()">
+                    <img src="./images/delete_icn.png" alt="" />
+                </button>
+
+                <!-- Item Image -->
+                <div class="image">
+                    <img src="./images/evergreen.jpg" alt="" />
+                </div>
+                    
+                <!-- Item Description -->
+                <div class="description">
+                    <span>Evergreen</span>
+                    <span>Type</span>
+                    <span>Age</span>
+                    <span>Height</span>
+                </div>
+                    
+                <!-- Item Quantity -->
+                <div class="quantity">
+                    <button class="btn_quantity">
+                        <img src="./images/minus_icn.png" alt="" />
+                    </button>
+
+                    <input type="text" name="name" value="1">
+                    
+                    <button class="btn_quantity">
+                        <img src="./images/plus_icn.png" alt="" />
+                    </button>
+                </div>
+                    
+                <!-- Item Price -->
+                <div class="item-price">$100</div>
+            </div>
+
+            <!-- Item 2 -->
+            <div id="item2" class="item">
+                <!-- Item Delete Button -->
+                <button class="btn_del" onclick="document.getElementById('item2').remove()">
+                        <img src="./images/delete_icn.png" alt="" />
+                </button>
+
+                <!-- Item Image -->
+                <div class="image">
+                    <img src="./images/evergreen.jpg" alt="" />
+                </div>
+                
+                <!-- Item Description -->
+                <div class="description">
+                    <span>Evergreen</span>
+                    <span>Type</span>
+                    <span>Age</span>
+                    <span>Height</span>
+                </div>
+                
+                <!-- Item Quantity -->
+                <div class="quantity">
+                    <button class="btn_quantity">
+                        <img src="./images/minus_icn.png" alt="" />
+                    </button>
+
+                    <input type="text" name="name" value="1">
+                    
+                    <button class="btn_quantity">
+                        <img src="./images/plus_icn.png" alt="" />
+                    </button>
+                </div>
+                
+                <!-- Item Price -->
+                <div class="item-price">$100</div>
+            </div>
+        </div>
+
+        <div class="purchase">
+            <!-- Purchase Button -->
+            <button class="btn" type="btn" name="btn">
+                PROCEED TO CHECKOUT
+            </button>
+        </div>
+
+        <footer>
+            <center>This is for footer</center>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
