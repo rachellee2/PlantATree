@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    /* //background-color: lightgreen; */
+    background-image: url(images/tree.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#container{
+    
+    
+}
+header{
+    height: 20%;
+	background-color: #404040;
+	border-bottom: solid;
+}
+#main{
+    
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 70%;
+}
+
+footer{
+    height: 10%;
+    background-color: #404040; 
+    border-top: solid;
+}
+.wrapper1{
+	margin: 0 auto 0;
+	width: 800px;
+	height: 106px;
+	
+}
+.nav{
+	margin:-30px auto;
+	background-color: rgba(17, 2, 2, 0.3);
+	width: 710px;
+	
+}
+ul{
+	position: relative;
+	margin: 3em 0;
+	height: 50px;
+}
+
+li{
+	list-style:none;
+	display: block;
+	float:left;
+	margin: 2px;
+	border-left: solid;
+	border-right: solid;
+	
+}
+li a{
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	padding: 5px;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18pt;
+	margin: 3px 20px;
+	
+}
+li a:hover{
+
+	background-color:hsl(344, 6%, 34%);
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted lightgreen;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: lightgreen;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
