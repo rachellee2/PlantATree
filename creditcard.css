@@ -174,3 +174,9 @@ li a:hover{
 	background-color:hsl(344, 6%, 34%);
 }
 >>>>>>> 60551005388751029fff69bddf8984c591a7c44d
+#cart_icn{
+	margin-top: 0px;
+	width: 45px;
+	height: 45px;
+	background-color: transparent;
+}

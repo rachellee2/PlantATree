@@ -85,3 +85,9 @@ li a:hover{
 	margin: 0 auto 0;
 	height: 20%;
 }
+#cart_icn{
+	margin-top: 0px;
+	width: 45px;
+	height: 45px;
+	background-color: transparent;
+}

@@ -1,28 +1,86 @@
-* {
-	margin: 0%;
-	padding: 0%;
-	box-sizing: border-box;
+*{
+    margin: 0%;
+    padding: 0%;
 }
-body {
-	background-image: url(images/tree.jpg);
-	background-position: center;
+body{
+    background-image: url(images/tree2.jpg);
+    background-position: left;
 	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;	
 }
-header {
-	height: 20%;
+#container{
+    
+    
+}
+header{
+    height: 20%;
 	background-color: #404040;
 	border-bottom: solid;
-	/* width: 100%; */
 }
-#main {
-	background-color: #ffffff4d;
+#main{
+    
+    background-color: rgba(255, 255, 255, 0.3);
 	height: 70%;
-	/* border-top: solid; */
+	border-top: solid;
+
 }
-footer {
-	height: 10%;
+
+footer{
+    height: 10%;
 	background-color: #404040;
 	border-top: solid;
+    
+}
+.wrapper1{
+	margin: 0 auto 0;
+	width: 100%;
+	height: 106px;
+}
+.nav{
+	margin:-48px auto ;
+	background-color: black;
+	width: 100%;
+	
+}
+ul{
+	position: relative;
+	margin: 3em 0;
+	height: 50px;
+}
+
+li{
+	list-style:none;
+	display: block;
+	float:left;
+	margin: 2px;
+	
+}
+li a{
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	padding: 5px;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18pt;
+	margin: 3px 20px;
+	
+}
+li a:hover{
+
+	background-color:hsl(344, 6%, 34%);
+}
+
+.page_name {
+	height: 25px;
+	margin-top: 30px;
+	border-bottom: 1px solid #05442c1c;
+	padding: 20px 30px;
+	color: #11020265;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: white;
 }
 .description {
 	padding-top: 10px;
@@ -49,51 +107,6 @@ footer {
     margin-top: 8px;
     color: #86939E;
   } */
-.wrapper1 {
-	margin: 0 auto 0;
-	width: 100%;
-	height: 120px;
-	/* overflow: visible; */
-}
-.page_name {
-	height: 60px;
-	border-bottom: 1px solid #05442c1c;
-	padding: 20px 30px;
-	color: #11020265;
-	font-size: 18px;
-	font-weight: 400;
-}
-.nav {
-	margin: -48px auto;
-	background-color: #1102024d;
-	width: 100%;
-	/* overflow: visible; */
-}
-ul {
-	position: relative;
-	margin: 3em 0;
-	height: 50px;
-}
-
-li {
-	list-style: none;
-	display: block;
-	float: left;
-	margin: 2px;
-}
-li a {
-	text-decoration: none;
-	display: block;
-	text-transform: uppercase;
-	padding: 5px;
-	color: white;
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 18pt;
-	margin: 3px 20px;
-}
-li a:hover {
-	background-color: hsl(344, 6%, 34%);
-}
 #shopping_cont {
 	margin-left: 20px;
 	margin-right: 25px;
@@ -174,6 +187,12 @@ img {
 	border: none;
 	cursor: pointer;
 } */
+#cart_icn{
+	margin-top: 0px;
+	width: 38px;
+	height: 38px;
+	background-color: transparent;
+}
 .quantity {
 	padding-top: 48px;
 	margin-left: 250px;
@@ -207,6 +226,16 @@ img {
 	border: none;
 	cursor: pointer;
 } */
+.purchase input {
+	-webkit-appearance: none;
+	font-family: 'Times New Roman', Times, serif;
+	border: none;
+	text-align: center;
+	width: 30px;
+	font-size: 17px;
+	color: #43484d;
+	/* font-weight: 300; */
+}
 .item-price {
 	width: 80px;
 	padding-top: 48px;
@@ -216,6 +245,9 @@ img {
 	font-size: 17px;
 	color: #43484d;
 	/* font-weight: 300; */
+}
+#total-price{
+	font: bold;
 }
 .purchase {
 	margin-left: 550px;
@@ -230,11 +262,40 @@ img {
 	margin-top: 30px;
 	font-size: 16px;
 	cursor: pointer;
-	width: 230px;
+	width: 250px;
 	height: 40px;
 }
 .btn_purchase {
-	font-family: 'Times New Roman', Times, serif;
 	border-style: ridge;
 	background-color: #ff7b00;
+}
+#purchase_btn{
+	font-size: 18px;
+}
+#purchase_btn a{
+	text-decoration: none;
+	color: white;
+}
+#price_cont{
+	padding-top: 40px;
+	margin-left: 10px;
+	width: 150px;
+	float: left;
+	text-align: right;
+	font: bold;
+	font-size: 24px;
+}
+#colon{
+	margin-left: 20px;
+	width: 30px;
+	padding-top: 43px;
+	float: left;
+	font: bold;
+}
+#total-price{
+	width: 100px;
+	padding-top: 43px;
+	margin-left: 3px;
+	float: left;
+	font: bold;
 }
