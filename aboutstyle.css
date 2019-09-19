@@ -71,3 +71,8 @@ li a:hover{
 
 	background-color:hsl(344, 6%, 34%);
 }
+
+#cont1{
+	width:300px;
+	float:right;
+}
