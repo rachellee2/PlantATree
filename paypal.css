@@ -3,18 +3,33 @@
     margin: 0%;
     padding: 0%;
 }
-
-
 body{
-    /* //background-color: lightgreen; */
-    background-image: url(images/tree.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-
+    
 }
-#container{
-
-
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+.container {
+    padding: 16px;
+  }
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+button:hover {
+    opacity: 0.8;
+  } 
 }
 header{
     height: 20%;
@@ -22,7 +37,7 @@ header{
 	border-bottom: solid;
 }
 #main{
-
+    
     background-color: rgba(255, 255, 255, 0.3);
     height: 70%;
 }
@@ -36,13 +51,13 @@ footer{
 	margin: 0 auto 0;
 	width: 800px;
 	height: 106px;
-
+	
 }
 .nav{
 	margin:-30px auto;
 	background-color: rgba(17, 2, 2, 0.3);
 	width: 710px;
-
+	
 }
 ul{
 	position: relative;
@@ -57,7 +72,7 @@ li{
 	margin: 2px;
 	border-left: solid;
 	border-right: solid;
-
+	
 }
 li a{
 	text-decoration: none;
@@ -68,42 +83,21 @@ li a{
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 18pt;
 	margin: 3px 20px;
-
+	
 }
 li a:hover{
 
 	background-color:hsl(344, 6%, 34%);
 }
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted lightgreen;
-  }
 
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: lightgreen;
-    color: rgb(10, 10, 10);
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-  }
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-  } 
->>>>>>> 60551005388751029fff69bddf8984c591a7c44d
-#cart_icn{
-	margin-top: 0px;
-	width: 45px;
-	height: 45px;
-	background-color: transparent;
+.imgcontainer {
+  text-align: center;
+  margin: 22px 0 12px 0;
 }
+
+img.paypal {
+  width: 20%;
+  border-radius: 110%;
+}
+
+>>>>>>> 60551005388751029fff69bddf8984c591a7c44d
