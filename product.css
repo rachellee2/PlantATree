@@ -126,3 +126,19 @@ li a:hover{
 #cont10{
 	text-align: right;
 }
+#cont11{
+	float:right;
+	width: 100px;
+	color: white;
+}
+#cont12{
+	background-color: aliceblue;
+	border:solid;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:500px;
+	float:left;
+}
+#cont13{
+	width:300px;
+}
