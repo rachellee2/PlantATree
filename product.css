@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(images/tree2.jpg);
+    background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;	
+}
+#container{
+    
+    
+}
+header{
+    height: 20%;
+	background-color: #404040;
+	border-bottom: solid;
+}
+#main{
+    
+    background-color: rgba(255, 255, 255, 0.3);
+	border-top: solid;
+	height:1000px;
+}
+
+footer{
+    height: 10%;
+	background-color: #404040;
+	border-top: solid;
+    
+}
+.wrapper1{
+	margin: 0 auto 0;
+	width: 100%;
+	height: 106px;
+}
+.nav{
+	margin:-48px auto ;
+	background-color: black;
+	width: 100%;
+	
+}
+ul{
+	position: relative;
+	margin: 3em 0;
+	height: 50px;
+}
+
+li{
+	list-style:none;
+	display: block;
+	float:left;
+	margin: 2px;
+	
+}
+li a{
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	padding: 5px;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18pt;
+	margin: 3px 20px;
+	
+}
+li a:hover{
+
+	background-color:hsl(344, 6%, 34%);
+}
+
+#cont1{
+    background-color: #87c9defc;
+    width:300px;
+    height: 800px;
+	float:left;
+}
+
+#cont2{
+	width: 400px;
+	height: 500px;
+	float: left;
+}
+#cont3{
+	margin-left:350px;
+	margin-top:30px;
+}
+
+#cont4{
+	margin-top:50px;
+	margin-bottom:10px;
+	
+}
+
+#cont5{
+	width: 690px;
+	height: 690px;
+	float:left;
+	margin-left: 50px;
+	margin-top:50px;
+}
+
+#cont6{
+	width:650px;
+	margin-top:20px;
+	float:left;
+}
+
+#cont7{
+	margin-top:20px;
+	height:150px;
+}
+
+#cont8{
+	width:300px;
+	float: left;
+}
+#cont9{
+	width:300px;
+	float:right;
+	border-bottom: solid;
+	text-align: right;
+}
+#cont10{
+	text-align: right;
+}
+#cart_icn{
+	margin-top: 0px;
+	width: 38px;
+	height: 38px;
+	background-color: transparent;
+}
