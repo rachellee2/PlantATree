@@ -79,6 +79,9 @@ img {
 	height: 30px;
 	background-color: transparent;
 }
+#cart_icn:hover{
+	background-color: hsl(344, 6%, 34%);
+}
 .page_name {
 	height: 25px;
 	width: 100%;
