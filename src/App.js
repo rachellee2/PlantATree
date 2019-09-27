@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Home, Product, Special, Stores, Register, logIn, item } from './pages';
+import { Home, Product, Special, Stores, Register, logIn, item, Cart } from './pages';
 import './App.css';
 
 class App extends Component {
@@ -34,6 +34,18 @@ class App extends Component {
                 <li id="AppCont1">
                   <Link to="/item">item</Link>
                 </li>
+                <li id="cont1">
+                  <Link to="/Cart">Cart</Link>
+                </li>
+                <li id="cont1">
+                  <Link to="/Paypal">Paypal</Link>
+                </li>
+                <li id="cont1">
+                  <Link to="/Creditcard">Creditcard</Link>
+                </li>
+                <li id="cont1">
+                  <Link to="/pickup&deliveryOpt">Pickup&Delivery</Link>
+                </li>
               </ul>
             </div>
             
@@ -46,6 +58,10 @@ class App extends Component {
           <Route path='/Register' component={Register}/>
           <Route path='/logIn' component={logIn}/>
           <Route path='/item' component={item}/>
+          <Route path='/Cart' component={Cart}/>
+          <Route path='/Cart' component={Paypal}/>
+          <Route path='/Cart' component={Creditcard}/>
+          <Route path='/Cart' component={Pickup&Delivery}/>
         </div>
       </Router>
     );

@@ -4,7 +4,7 @@ import delIcn from '../images/delete_icn.png';
 import plusIcn from '../images/plus_icn.png';
 import minusIcn from '../images/minus_icn.png';
 import testImage from '../images/evergreen.jpg';
-import '../cart.css';
+import './css/Cart';
 
 
 const Cart = () =>  {
