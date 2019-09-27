@@ -73,8 +73,9 @@ body{
 	margin: auto;
 }
 .sub3{
-	grid-area:sub3;;
+	grid-area:sub3;
 	margin: auto;
+
 }
 
 .footer{
