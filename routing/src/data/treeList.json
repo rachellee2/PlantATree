@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "tName": "Apple",
         "type": "Fruit tree",
         "soil": "Medium",
@@ -12,6 +13,7 @@
         "maxPrice": 50
     },
     {
+        "id": 2,
         "tName": "Blueberry",
         "type": "Fruit tree",
         "soil": "Fast",
@@ -24,6 +26,7 @@
         "maxPrice": 75
     },
     {
+        "id": 3,
         "tName": "Rose",
         "type": "Flower tree",
         "soil": "Medium",
@@ -36,6 +39,7 @@
         "maxPrice": 50
     },
     {
+        "id": 4,
         "tName": "Rimu",
         "type": "NZ native",
         "soil": "Fast",
@@ -48,6 +52,7 @@
         "maxPrice": 200
     },
     {
+        "id": 5,
         "tName": "Mountain cabbage",
         "type": "NZ native",
         "soil": "Medium",
@@ -60,6 +65,7 @@
         "maxPrice": 25
     },
     {
+        "id": 6,
         "tName": "Viburnum",
         "type": "Hedge",
         "soil": "Fast",
@@ -72,6 +78,7 @@
         "maxPrice": 75
     },
     {
+        "id": 7,
         "tName": "Cypress",
         "type": "Hedge",
         "soil": "Fast",
@@ -84,6 +91,7 @@
         "maxPrice": 50
     },
     {
+        "id": 8,
         "tName": "Blue spruce",
         "type": "Evergreen",
         "soil": "Fast",
@@ -96,6 +104,7 @@
         "maxPrice": 200
     },
     {
+        "id": 9,
         "tName": "Lemon",
         "type": "Fruit tree",
         "soil": "Medium",
@@ -108,6 +117,7 @@
         "maxPrice": 25
     },
     {
+        "id": 10,
         "tName": "Cherry blossom",
         "type": "Flower",
         "soil": "Slow",

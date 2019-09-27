@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Home, Product, Special, Stores, Register, logIn, Cart } from './pages';
+import TreeList from './TreeList'
 import './App.css';
 
 class App extends Component {
