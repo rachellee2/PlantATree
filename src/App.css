@@ -29,7 +29,7 @@
 .wrapper1{ 
   width: 100%;
   background: rgb(77, 189, 96);
-  height: 75px;
+  height: 80px, auto;
   float: left;
   margin-bottom: 10px;
 }
@@ -39,11 +39,9 @@
 	width: 100%;
 	
 }
-#AppCont1{
-  width:180px;
-  float: left;
+.cont1{
   text-decoration: none;
-  display: block;
+  display: inline;
   text-transform: uppercase;
   padding: 5px;
   color: white;
@@ -51,27 +49,28 @@
   font-size: 15pt;
   margin: 3px 20px;
 }
-#AppCont2{
+#cont2{
 	width: 100%;
 	float: left;
 }
 
-#AppCont3{
+#cont3{
   color: white;
   background: #94e6af;
   width: 100%;
   float: left;
 }
-#AppCont4{
+#cont4{
   margin: 0%;
   width: 50%;
   float: left;
 }
-#AppCont5{
+#cont5{
   float:right;
   margin: 0%;
 }
-#AppCont6{
+#cont6{
   width:100%;
   margin: 0%;
+  
 }

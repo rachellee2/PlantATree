@@ -23,7 +23,6 @@ import './css/homestyle.css';
 //     }
 // }
 
-
 const Home = () => {
         return(
         // <div className="main-wrapper">
@@ -57,15 +56,15 @@ const Home = () => {
             <div className="main-wrapper">
                 <div className="main-featured">
                     <div className="sub1">
-                    <h2>Advertisement</h2>
+                        <h2>Advertisement</h2>
                         <a href="/Advertisement">
                             <img src={ad1} height="300px" width="900px"/>
-                            </a>
+                        </a>
                     </div>
                     <div className="sub2">
                         <h2>Specials</h2>
                         <a href="/Special">
-                            <img src={ad2} height="300px" width="900px" /><link rel="https://www.paypal.com/in/signin"></link>
+                            <img src={ad2} height="300px" width="900px" />
                         </a>
                     </div>
                     <div className="sub3">
