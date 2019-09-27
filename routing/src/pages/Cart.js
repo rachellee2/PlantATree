@@ -1,237 +1,265 @@
-import React, { Component } from 'react';
-import cartIcn from '../images/cart.png'
-import delIcn from '../images/delete_icn.png'
-import plusIcn from '../images/plus_icn.png'
-import minusIcn from '../images/minus_icn.png'
-import testImage from '../images/evergreen.jpg'
+import React from 'react';
+import cartIcn from '../images/cart.png';
+import delIcn from '../images/delete_icn.png';
+import plusIcn from '../images/plus_icn.png';
+import minusIcn from '../images/minus_icn.png';
+import testImage from '../images/evergreen.jpg';
 import '../cart.css';
 
 
-const Cart = () => {
+const Cart = () =>  {
     return(
         <div id="container">
-        <div class="page_name">
+        <div className="page_name">
             <h3>SHOPPING CART</h3>
         </div>
 
         <div id="shopping_cont">
-            <div id="item1" class="item">
+            <div id="item1" className="item">
 
-                <button class="btn_del" onclick="remove_item()">
+                <button className="btn_del" onclick={ (e) => {e.preventDefault(); this.clicked();}}>
                     <img src={delIcn} alt=""></img>
                 </button>
 
-                <div class="image">
+                <div className="image">
                     <img src={testImage} alt=""></img>
                 </div>
                     
-                <div class="description">
+                <div className="description">
                     <span>Evergreen</span>
                     <span>Type</span>
                     <span>Age</span>
                     <span>Height</span>
                 </div>
                     
-                <div class="quantity">
-                    <button class="btn_quantity">
+                <div className="quantity">
+                    <button className="btn_quantity">
                         <img src={minusIcn} alt=""></img>
                     </button>
 
                     <input type="text" name="name" value="1"></input>
                     
-                    <button class="btn_quantity">
+                    <button className="btn_quantity">
                         <img src={plusIcn} alt="" ></img>
                     </button>
                 </div>
                     
-                <div class="item-price">$100</div>
+                <div className="item-price">$100</div>
             </div>
 
-            <div id="item2" class="item">
-                <button class="btn_del" onclick="document.getElementById('item2').remove()">
-                        <img src="../components/images/delete_icn.png" alt=""></img>
+            <div id="item2" className="item">
+                <button className="btn_del">
+                        <img src={delIcn} alt=""></img>
                 </button>
 
-                <div class="image">
-                    <img src="../components/images/evergreen.jpg" alt="" ></img>
+                <div className="image">
+                    <img src={testImage} alt="" ></img>
                 </div>
                 
-                <div class="description">
+                <div className="description">
                     <span>Evergreen</span>
                     <span>Type</span>
                     <span>Age</span>
                     <span>Height</span>
                 </div>
                 
-                <div class="quantity">
-                    <button class="btn_quantity">
-                        <img src="../components/images/minus_icn.png" alt="" ></img>
+                <div className="quantity">
+                    <button className="btn_quantity">
+                        <img src={minusIcn} alt="" ></img>
                     </button>
 
                     <input type="text" name="name" value="1"></input>
                     
-                    <button class="btn_quantity">
-                        <img src="../components/images/plus_icn.png" alt=""></img>
+                    <button className="btn_quantity">
+                        <img src={plusIcn} alt=""></img>
                     </button>
                 </div>
                 
-                <div class="item-price">$100</div>
+                <div className="item-price">$100</div>
             </div>
 
-            <div id="item1" class="item">
+            <div id="item1" className="item">
 
-                <button class="btn_del" onclick="remove_item()">
-                    <img src="./images/delete_icn.png" alt="" ></img>
+                <button className="btn_del" onclick="remove_item()">
+                    <img src={delIcn} alt="" ></img>
                 </button>
 
-                <div class="image">
-                    <img src="./images/evergreen.jpg" alt="" ></img>
+                <div className="image">
+                    <img src={testImage} alt="" ></img>
                 </div>
                     
-                <div class="description">
+                <div className="description">
                     <span>Evergreen</span>
                     <span>Type</span>
                     <span>Age</span>
                     <span>Height</span>
                 </div>
                     
-                <div class="quantity">
-                    <button class="btn_quantity">
-                        <img src="./images/minus_icn.png" alt="" ></img>
+                <div className="quantity">
+                    <button className="btn_quantity">
+                        <img src={minusIcn} alt="" ></img>
                     </button>
 
                     <input type="text" name="name" value="1"></input>
                     
-                    <button class="btn_quantity">
-                        <img src="./images/plus_icn.png" alt="" ></img>
+                    <button className="btn_quantity">
+                        <img src={plusIcn} alt="" ></img>
                     </button>
                 </div>
                     
-                <div class="item-price">$100</div>
+                <div className="item-price">$100</div>
             </div>
 
-            <div id="item1" class="item">
+            <div id="item1" className="item">
 
-                <button class="btn_del" onclick="remove_item()">
-                    <img src="./images/delete_icn.png" alt="" ></img>
+                <button className="btn_del" onclick="remove_item()">
+                    <img src={delIcn} alt="" ></img>
                 </button>
 
-                <div class="image">
-                    <img src="./images/evergreen.jpg" alt="" ></img>
+                <div className="image">
+                    <img src={testImage} alt="" ></img>
                 </div>
                     
-                <div class="description">
+                <div className="description">
                     <span>Evergreen</span>
                     <span>Type</span>
                     <span>Age</span>
                     <span>Height</span>
                 </div>
                     
-                <div class="quantity">
-                    <button class="btn_quantity">
-                        <img src="./images/minus_icn.png" alt="" ></img>
+                <div className="quantity">
+                    <button className="btn_quantity">
+                        <img src={minusIcn} alt="" ></img>
                     </button>
 
                     <input type="text" name="name" value="1"></input>
                     
-                    <button class="btn_quantity">
-                        <img src="./images/plus_icn.png" alt="" ></img>
+                    <button className="btn_quantity">
+                        <img src={plusIcn} alt="" ></img>
                     </button>
                 </div>
                     
-                <div class="item-price">$100</div>
+                <div className="item-price">$100</div>
             </div>
-            <div id="item1" class="item">
+            <div id="item1" className="item">
 
-                <button class="btn_del" onclick="remove_item()">
-                    <img src="./images/delete_icn.png" alt="" ></img>
+                <button className="btn_del" onclick="remove_item()">
+                    <img src={delIcn} alt="" ></img>
                 </button>
 
-                <div class="image">
-                    <img src="./images/evergreen.jpg" alt=""></img>
+                <div className="image">
+                    <img src={testImage} alt=""></img>
                 </div>
                     
-                <div class="description">
+                <div className="description">
                     <span>Evergreen</span>
                     <span>Type</span>
                     <span>Age</span>
                     <span>Height</span>
                 </div>
                     
-                <div class="quantity">
-                    <button class="btn_quantity">
-                        <img src="./images/minus_icn.png" alt=""></img>
+                <div className="quantity">
+                    <button className="btn_quantity">
+                        <img src={minusIcn} alt=""></img>
                     </button>
 
                     <input type="text" name="name" value="1"></input>
                     
-                    <button class="btn_quantity">
-                        <img src="./images/plus_icn.png" alt="" ></img>
+                    <button className="btn_quantity">
+                        <img src={plusIcn} alt="" ></img>
                     </button>
                 </div>
                     
-                <div class="item-price">$100</div>
+                <div className="item-price">$100</div>
             </div>
-            <div id="item1" class="item">
+            <div id="item1" className="item">
 
-                <button class="btn_del" onclick="remove_item()">
-                    <img src="./images/delete_icn.png" alt="" ></img>
+                <button className="btn_del" onclick="remove_item()">
+                    <img src={delIcn} alt="" ></img>
                 </button>
 
-                <div class="image">
-                    <img src="./images/evergreen.jpg" alt="" ></img>
+                <div className="image">
+                    <img src={testImage} alt="" ></img>
                 </div>
                     
-                <div class="description">
+                <div className="description">
                     <span>Evergreen</span>
                     <span>Type</span>
                     <span>Age</span>
                     <span>Height</span>
                 </div>
                     
-                <div class="quantity">
-                    <button class="btn_quantity">
-                        <img src="./images/minus_icn.png" alt="" ></img>
+                <div className="quantity">
+                    <button className="btn_quantity">
+                        <img src={minusIcn} alt="" ></img>
                     </button>
 
                     <input type="text" name="name" value="1"></input>
                     
-                    <button class="btn_quantity">
-                        <img src="./images/plus_icn.png" alt="" ></img>
+                    <button className="btn_quantity">
+                        <img src={plusIcn} alt="" ></img>
                     </button>
                 </div>
                     
-                <div class="item-price">$100</div>
+                <div className="item-price">$100</div>
             </div>
-
-
-
         </div>
 
-        <div class="purchase">
+        <div className="purchase">
             <div  id="purchase_cont">
-                <select name="payment">
-                    <option value="1" selected> Payment Option</option>"
-                    <option value="2"><a href="./Credit.js">Paypal</a></option>"
+                {/* <ReactExample ></ReactExample> */}
+                <select id="paymentMethod" name="payment">
+                    <option value="1" defaultValue> Payment Option</option>"
+                    <option value="2">Paypal</option>"
                     <option value="3">Creditcard</option>"
                 </select><br></br>
-                <select name="payment">
-                    <option value="1" selected> Delivery Option</option>"
+                <select id="deliveryMethod" name="payment">
+                    <option value="1" defaultValue> Delivery Option</option>"
                     <option value="2">Pickup</option>"
                     <option value="3">Delivery</option>"
                 </select>  
-                <label class="payment">: $ </label>
-                <label class="payment">10<br></br></label>
-                <label id="total_price" class="payment">Total price: $ </label>
-                <label class="payment">310<br></br></label>
+                <label className="payment">: $ </label>
+                <label className="payment">10<br></br></label>
+                <label id="total_price" className="payment">Total price: $ </label>
+                <label className="payment">310<br></br></label>
                     
-                <button id="purchase_btn" class="btn" type="btn" name="btn">
-                    <a href="">Proceed to checkout</a>
+                <button id="purchase_btn" className="btn" type="btn" name="btn">
+                Proceed to checkout
                 </button>
             </div>
         </div>
         </div>
     )
+
+
+    // function getOptions(){
+    //     alert('working');
+
+
+
+    //     // var pM = document.getElementById('paymentMethod');
+    //     // if(pM==="Creditcard"){
+    //     //     alert('if working');
+    //     //     document.getElementById("purchase_btn").onclick = function(){
+    //     //         this.href = "./Credit.js";
+    //     //     };
+    //     // }   
+    //     // else if(pM==="Paypal"){
+    //     //     alert('if working');
+    //     //     document.getElementById("purchase_btn").onclick = function(){
+    //     //         this.href = "./Credit.js";
+    //     //     };
+    //     // }
+    //     // else{
+    //     //     alert('failed');
+    //     // }
+    // }
+
+    // function clicked(){
+    //     console.log('this button clicked');
+    // }
+
 }
+
 
 export default Cart;
