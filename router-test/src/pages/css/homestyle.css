@@ -63,9 +63,7 @@ body{
 		"sub1 sub1 sub1"
 		"sub2 sub2 sub2"
 		"sub3 sub3 sub3"
-		"sub4 sub4 sub4"
 }
-
 .sub1{
 	grid-area:sub1;
 	margin: auto;
@@ -78,11 +76,6 @@ body{
 	grid-area:sub3;;
 	margin: auto;
 }
-.sub4{
-	grid-area:sub4;;
-	margin: auto;
-}
-
 
 .footer{
 	display: grid;
