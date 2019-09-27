@@ -21,7 +21,7 @@ header{
     
     background-color: rgba(255, 255, 255, 0.3);
 	border-top: solid;
-	height:1000px;
+	height:3000px;
 }
 
 footer{
@@ -29,11 +29,6 @@ footer{
 	background-color: #404040;
 	border-top: solid;
     
-}
-.wrapper1{
-	margin: 0 auto 0;
-	width: 100%;
-	height: 106px;
 }
 .nav{
 	margin:-48px auto ;
@@ -78,26 +73,34 @@ li a:hover{
 }
 
 #cont2{
-	width: 400px;
-	height: 500px;
+	width: 360px;
+	height: 400px;
 	float: left;
+	padding-left: 10px;
 }
-
+#cont3{
+	width:auto;
+}
 #cont4{
 	margin-top:50px;
 	margin-bottom:10px;
 	
 }
-
+#cont5{
+	height: 690px;
+	float:left;
+	margin-top:50px;
+}
 #cont6{
 	width:650px;
 	margin-top:20px;
 	float:left;
+	font-size:18px;
 }
 
-#cont7{
+#p_cont7{
 	margin-top:20px;
-	height:150px;
+	height:150px;	
 }
 
 #cont8{
@@ -128,13 +131,36 @@ li a:hover{
 	float:left;
 }
 #cont13{
-    width:150px;
-    height:30px;
+    width:200px;
+    height:40px;
 }
 #cont14{
-    width: auto;
+    width: 250px;
     background-color: rgb(251, 253, 218);
     float: left;
     padding-left: 2%;
     padding-right: 5%;
+}
+#p_cont15{
+	margin-left:10px;
+}
+#p_cont16{
+	width:150px;
+	height:50px;
+}
+#p_cont17{
+	height:3000px;
+	width:300px;
+	float: left;
+}
+#p_cont18{
+	width:750px;
+	float:right;
+	margin-left: 20px;
+}
+#cont19{
+	width:650px;
+	margin-top:20px;
+	float:right;
+	font-size:18px;
 }
