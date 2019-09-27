@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Home, Product, Special, Stores, Register, logIn } from './pages';
+import { Home, Product, Special, Stores, Register, logIn, Tips, Advertisement } from './pages';
 import './App.css';
 
 class App extends Component {
@@ -17,18 +17,18 @@ class App extends Component {
           </div>
           
           <nav className="wrapper1">
-            <div id="cont2">
-              <ul id="cont6">
-                <li id="cont1">
+            <div className="cont2">
+              <ul className="cont6">
+                <li className="cont1">
                   <Link to="/">Home</Link>
                 </li>
-                <li id="cont1">
+                <li className="cont1">
                   <Link to="/Product">Product</Link>
                 </li>
-                <li id="cont1">
+                <li className="cont1">
                   <Link to="/Special">Special</Link>
                 </li>
-                <li id="cont1">
+                <li className="cont1">
                   <Link to="/Stores">Stores</Link>
                 </li>
               </ul>
@@ -42,6 +42,8 @@ class App extends Component {
           <Route path='/Stores' component={Stores}/>
           <Route path='/Register' component={Register}/>
           <Route path='/logIn' component={logIn}/>
+          <Route path='/Tips' component={Tips}/>
+          <Route path='/Advertisement' component={Advertisement}/>
         </div>
       </Router>
     );

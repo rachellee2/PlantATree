@@ -7,3 +7,5 @@ export { default as logIn } from './logIn';
 export { default as Stores } from './Stores';
 export { default as item } from './item';
 export { default as Register } from './Register';
+export { default as Tips } from './Tips';
+export { default as Advertisement } from './Advertisement';

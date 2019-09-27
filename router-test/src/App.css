@@ -39,12 +39,9 @@
 	width: 100%;
 	
 }
-#cont1{
-  background-color: #87c9defc;
-  width:180px;
-  float: left;
+.cont1{
   text-decoration: none;
-  display: block;
+  display: inline;
   text-transform: uppercase;
   padding: 5px;
   color: white;
@@ -75,4 +72,5 @@
 #cont6{
   width:100%;
   margin: 0%;
+  
 }
