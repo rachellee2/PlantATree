@@ -1,0 +1,47 @@
+.modal{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+ 
+
+}
+
+.delivery-content{
+    background-color: #aff7d5;
+    margin: auto;
+    padding: 20px;
+    position: center;
+    width: 80%;
+    height: 80px, auto;
+    float: left;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 8%;
+
+    
+}
+
+.button{
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+}
+.btn1{
+    width: 200px;
+    height: 40px;
+}
+.info{
+    
+    background: #13e081;
+    float: left;
+    display: inline;
+    width: 250px;
+    height: 180px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
