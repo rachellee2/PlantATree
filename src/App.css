@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.pageIndex {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.wrapper1{ 
+  width: 100%;
+  background: rgb(77, 189, 96);
+  height: 75px;
+  float: left;
+  margin-bottom: 10px;
+}
+.nav{
+	margin:-48px auto ;
+	background-color: black;
+	width: 100%;
+	
+}
+#AppCont1{
+  width:180px;
+  float: left;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  padding: 5px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15pt;
+  margin: 3px 20px;
+}
+#AppCont2{
+	width: 100%;
+	float: left;
+}
+
+#AppCont3{
+  color: white;
+  background: #94e6af;
+  width: 100%;
+  float: left;
+}
+#AppCont4{
+  margin: 0%;
+  width: 50%;
+  float: left;
+}
+#AppCont5{
+  float:right;
+  margin: 0%;
+}
+#AppCont6{
+  width:100%;
+  margin: 0%;
+}
