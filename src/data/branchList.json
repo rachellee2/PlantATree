@@ -1,0 +1,20 @@
+[
+    {
+        "btName": "Mt Eden Branch",
+        "address": "445 Mount Eden Road, Mount Eden, Auckland",
+        "contactPerson": "Stephen Beck",
+        "contactPhone": "09 789 4455"
+    },
+    {
+        "btName": "East Tamaki Branch",
+        "address": "29 Kerwyn Ave, East Tamaki, Auckland 2013",
+        "contactPerson": "Amy Anderson",
+        "contactPhone": "09 789 4444"
+    },
+    {
+        "btName": "Albany Branch",
+        "address": "67 Kell Dr, Albany, Auckland 0632",
+        "contactPerson": "Chris Wilson",
+        "contactPhone": "09 789 1458"
+    }
+]
