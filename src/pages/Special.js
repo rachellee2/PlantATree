@@ -1,5 +1,4 @@
 import React from 'react';
-import TreeData from '../Component/TreeData.js';
 import { TreeList } from '../Component/Tree.js';
 
 const Special = () => {
