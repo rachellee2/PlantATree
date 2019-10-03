@@ -49,7 +49,7 @@ const item = () => {
                             </h3>
                             <br/>
                             <h3>
-                                Quaility:
+                                Quality:
                                 <select id="cont22" name="select">
                                         <option value="1" selected> Okay</option>"
                                         <option value="2">Good</option>"
@@ -79,7 +79,7 @@ const item = () => {
                             </h3>
                         </div>                    
                         <div id="cont10">
-                            <h1>Total Price: 100</h1>
+                            <h1>Total Price: $ {TreeList[check.state.selected].state.Price}</h1>
                         </div> 
                     </div>  
                 </h2>    
