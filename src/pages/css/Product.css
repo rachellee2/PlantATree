@@ -87,9 +87,9 @@ li a:hover{
 	
 }
 #cont5{
-	height: 690px;
+	height: 1090px;
 	float:left;
-	margin-top:50px;
+	margin-top:30px;
 }
 #cont6{
 	width:650px;
@@ -106,9 +106,11 @@ li a:hover{
 #cont8{
 	width:300px;
 	float: left;
+	margin-top: 50px;
 }
 #cont9{
 	width:300px;
+	margin-top: 50px;
 	float:right;
 	border-bottom: solid;
 	text-align: right;
@@ -161,6 +163,15 @@ li a:hover{
 #cont19{
 	width:650px;
 	margin-top:20px;
-	float:right;
 	font-size:18px;
+}
+#cont20{
+	margin-left: 10px;	
+}
+#cont21{
+	float: left;
+}
+#cont22{
+	width:250px;
+	height:25px;
 }
