@@ -134,52 +134,52 @@ const Product = () => {
             <div id="cont3">
                     <div id="cont2">                      
                         <a id="0" onClick={check.state.selected =0}href="/item" >
-                        <img src={TreeList[0].state.img} alt="" width="350" height="350"></img></a>
+                        <img id ="cont23"src={TreeList[0].state.img} alt="" ></img></a>
                         <h3 id="cont20">{TreeList[0].state.name}</h3>                          
                     </div>
                     <div id="cont2">
                         <a id="1" onClick={check.state.selected =0}href="/item" >
-                        <img src={TreeList[1].state.img} alt="" width="350" height="350"></img></a> 
+                        <img id ="cont23" src={TreeList[1].state.img} alt=""></img></a> 
                         <h3 id="cont20">{TreeList[1].state.name}</h3>   
                     </div>
                     <div id="cont2">
                         <a id="1" onClick={check.state.selected =0}href="/item" >
-                        <img src={TreeList[2].state.img} alt="" width="350" height="350"></img></a>
+                        <img id ="cont23" src={TreeList[2].state.img} alt=""></img></a>
                         <h3 id="cont20">{TreeList[2].state.name}</h3>   
                     </div>
                     <div id="cont2">
-                        <a id="1" onClick={check.state.selected =1}href="/item" >
-                        <img src={TreeList[3].state.img} alt="" width="350" height="350"></img></a>
+                        <a id="1" onClick='check.state.selected =1' href="/item" >
+                        <img id ="cont23" src={TreeList[3].state.img} alt="" ></img></a>
                         <h3 id="cont20">{TreeList[3].state.name}</h3>   
                     </div>
                     <div id="cont2">
                         <a id="1" onClick={check.state.selected =2}href="/item" >
-                        <img src={TreeList[4].state.img} alt="" width="350" height="350"></img></a>
+                        <img id ="cont23" src={TreeList[4].state.img} alt=""></img></a>
                         <h3 id="cont20">{TreeList[4].state.name}</h3>   
                     </div>
                     <div id="cont2">
                         <a id="1" onClick={check.state.selected =3}href="/item" >
-                        <img src={TreeList[5].state.img} alt="" width="350" height="350"></img></a>
+                        <img id ="cont23" src={TreeList[5].state.img} alt=""></img></a>
                         <h3 id="cont20">{TreeList[5].state.name}</h3>   
                     </div>
                     <div id="cont2">
                         <a id="1" onClick={check.state.selected =4}href="/item" >
-                        <img src={TreeList[6].state.img} alt="" width="350" height="350"></img></a>
+                        <img id ="cont23" src={TreeList[6].state.img} alt="" ></img></a>
                         <h3 id="cont20">{TreeList[6].state.name}</h3>   
                     </div>
                     <div id="cont2">
                         <a id="1" onClick={check.state.selected =0}href="/item" >
-                        <img src={TreeList[7].state.img} alt="" width="350" height="350"></img></a> 
+                        <img id ="cont23" src={TreeList[7].state.img} alt="" ></img></a> 
                         <h3 id="cont20">{TreeList[7].state.name}</h3>   
                     </div>
                     <div id="cont2">
                         <a id="1" onClick={check.state.selected =0}href="/item" >
-                        <img src={TreeList[8].state.img} alt="" width="350" height="350"></img></a>
+                        <img id ="cont23" src={TreeList[8].state.img} alt=""></img></a>
                         <h3 id="cont20">{TreeList[8].state.name}</h3>   
                     </div>
                     <div id="cont2">
                         <a id="1" onClick={check.state.selected =0}href="/item" >
-                        <img src={TreeList[9].state.img} alt="" width="350" height="350"></img></a>
+                        <img id ="cont23" src={TreeList[9].state.img} alt=""></img></a>
                         <h3 id="cont20">{TreeList[9].state.name}</h3>   
                     </div>
                 </div>
