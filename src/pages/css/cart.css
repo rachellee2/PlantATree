@@ -44,7 +44,7 @@ ul {
 	margin: 1em 0;
 	height: 50px;
 }
-li {
+/* li {
 	list-style: none;
 	display: block;
 	float: left;
@@ -62,7 +62,7 @@ li a {
 }
 li a:hover {
 	background-color: hsl(344, 6%, 34%);
-}
+} */
 img {
 	max-height: 100%;
 }

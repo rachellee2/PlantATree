@@ -95,7 +95,7 @@ li a:hover{
 	width:650px;
 	margin-top:20px;
 	float:left;
-	font-size:18px;
+	font-size:20px;
 }
 
 #p_cont7{
@@ -116,7 +116,8 @@ li a:hover{
 	text-align: right;
 }
 #cont10{
-	text-align: right;
+	float:right;
+	margin-top: 300px;
 }
 #cont11{
 	float:right;
@@ -174,4 +175,12 @@ li a:hover{
 #cont22{
 	width:250px;
 	height:25px;
+}
+#cont23{
+	width:350px; 
+	height:350px;
+}
+#cont24{
+	width:650px; 
+	height:650px;
 }

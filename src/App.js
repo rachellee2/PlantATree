@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Home, Product, Special, Stores, Register, logIn, item, Cart } from './pages';
+import { Home, Product, Special, Stores, Register, logIn, Cart, item } from './pages';
 import './App.css';
 
 class App extends Component {
@@ -32,10 +32,7 @@ class App extends Component {
                   <Link to="/Stores">Stores</Link>
                 </li>
                 <li id="AppCont1">
-                  <Link to="/item">item</Link>
-                </li>
-                <li id="AppCont1">
-                  <Link to="/Cart">Cart</Link>
+                  <Link to="/Cart">My Cart</Link>
                 </li>
               </ul>
             </div>
@@ -48,8 +45,8 @@ class App extends Component {
           <Route path='/Stores' component={Stores}/>
           <Route path='/Register' component={Register}/>
           <Route path='/logIn' component={logIn}/>
-          <Route path='/item' component={item}/>
           <Route path='/Cart' component={Cart}/>
+          <Route path='/item' component={item}/>
         </div>
       </Router>
     );
