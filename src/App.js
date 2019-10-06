@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Home, Product, Special, Stores, Register, logIn, item, Paypal } from './pages';
-import { CartComp } from './Component/Cart/CartComp';
-import { RitemList } from './Component/RitemList';
+import CartComp from './Component/Cart/CartComp';
+import RitemList from './Component/RitemList';
 import ItemDetail from './Component/ItemDetail';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
