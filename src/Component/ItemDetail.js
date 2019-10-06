@@ -15,7 +15,7 @@ export default class ItemDetail extends Component {
 				{console.log(this.props)}
 
 				<div id="p_cont15">
-					<h1>{this.props.location.name}</h1>
+					<h1>{this.props.location.item.state.name}</h1>
 				</div>
 
 				<div id="cont5">
