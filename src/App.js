@@ -6,7 +6,6 @@ import { inCart } from './Component/Cart/InCart';
 import RitemList from './Component/RitemList';
 import ItemDetail from './Component/ItemDetail';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
 	render() {
