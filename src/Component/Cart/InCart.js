@@ -31,7 +31,8 @@ export default class InCart extends Component {
 		tempCartList = tempCartList.filter((element) => {
 			return element.id !== item.id;
 		});
-		TreeList[item.id - 1].state.isAdded = false;
+		let index = TreeList.findIndex(el => el.state.id === item.id);
+		TreeList[index].state.isAdded = false;
 		inCart.state.totalPrice = tempTotal;
 		inCart.state.item = tempCartList;
 		return { inCart };

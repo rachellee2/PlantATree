@@ -32,9 +32,6 @@ const Home = () => {
                         </a>
                     </div>
             </div>
-            <div className="footer">
-                <center/>This is for footer
-            </div>
          </div>
 
         )

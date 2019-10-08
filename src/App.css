@@ -5,7 +5,9 @@
 .App-logo {
   height: 40vmin;
 }
-
+.footer-green{
+  background-color: #0ca32d33;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -58,6 +60,7 @@
 	width: 100%;
 	float: left;
   text-decoration: none;
+  text-align: center;
 }
 
 #AppCont3{

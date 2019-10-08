@@ -29,9 +29,6 @@ const Stores = () => {
                         </div>
                     </div>
                 </div>
-                <div className="footer">
-                    <center/>This is for footer
-                </div>
         </div>
     )
 }
