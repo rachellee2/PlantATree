@@ -9,9 +9,7 @@ import './css/homestyle.css';
 
 const Home = () => {
         return(
- 
-
-            <div className="container">        
+            <div>        
             <div className="main-wrapper">
                     <div className="ads-wrapper">
                         <h2>Advertisement</h2>
@@ -31,9 +29,6 @@ const Home = () => {
                         <img src={ad3} alt="Guide to grow your trees safe"/>
                         </a>
                     </div>
-            </div>
-            <div className="footer">
-                <center/>This is for footer
             </div>
          </div>
 

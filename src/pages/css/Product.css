@@ -24,12 +24,12 @@ header{
 	height:3000px;
 }
 
-footer{
+/* footer{
     height: 10%;
 	background-color: #404040;
 	border-top: solid;
     
-}
+} */
 .nav{
 	margin:-48px auto ;
 	background-color: black;

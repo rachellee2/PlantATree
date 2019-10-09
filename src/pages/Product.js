@@ -23,7 +23,7 @@ var check =new product(0);
 
 const Product = () => {
     return(
-        <div id="main">
+        <div id="main" className="container h-100">
             <div id="p_cont17">
                 <div id="cont14">  
                     <br/>
