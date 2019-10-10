@@ -8,14 +8,15 @@ export default class CartItem extends Component {
 	}
 
 	render() {
+		console.log(inCart);
 		return (
 			<div className="row text-uppercase text-center my-3 align-middle">
 				<div className="btn col-10 mx-auto col-lg-2">
-					<Link to="/ritemlist">
+					<Link to="/cart">
 						<i className="fas fa-times-circle text-danger mt-lg-4" onClick={() => inCart.deleteItem(this.props)} />
 					</Link>
 				</div>
-				<div className="col-10 mx-auto col-lg-2 w-10 h-10">
+				<div className="col-10 mx-auto col-lg-2 w-10 h-10 mb-2">
 					<div className="img-container">
 						<img className="img-fluid" src={this.props.img} />
 					</div>

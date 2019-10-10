@@ -15,7 +15,7 @@ export default class CartComp extends Component {
 			console.log('inCart component has in CartComp: ', inCart);
 		}
 		return (
-			<div className="container">
+			<div>
 				<div>
 					<h2 className="text-uppercase mb-lg-5 mb-md-1 mb-sm-1 text-center">my cart</h2>
 				</div>

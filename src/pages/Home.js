@@ -9,9 +9,7 @@ import './css/homestyle.css';
 
 const Home = () => {
         return(
- 
-
-            <div className="container">        
+            <div>        
             <div className="main-wrapper">
                     <div className="ads-wrapper">
                         <h2>Advertisement</h2>
