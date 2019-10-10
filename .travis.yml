@@ -1,0 +1,14 @@
+
+language: node_js
+node_js:
+  - "10"
+cache: npm
+script:
+  - echo 'Build starts with TRAVIS!!'
+  - echo 'Installing Deps!'
+  - echo 'Testing!'
+  - npm run install
+  - npm run test
+deploy:
+  on:
+    branch: Bonita_Final
