@@ -14,7 +14,7 @@ export default class RitemList extends Component {
 						<h6 className="mt-3">
 							Tree Type:
 						<br/>
-							<select className="w-100 py-1" name="select" onChange={()=>this.onHandleChange.bind(this)}>
+							<select className="w-100 py-1" name="select">
 								<option value="any" defaultValue>
 									Any
 								</option>"

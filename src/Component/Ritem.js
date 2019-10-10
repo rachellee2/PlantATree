@@ -22,7 +22,7 @@ export default class Ritem extends Component {
 					</Link>
 
 					<Link
-						to='/Cart' 
+						to='/product' 
 						style={this.props.state.isAdded ? { pointerEvents: 'none' } : { pointerEvents: 'auto' }}
 					>
 						<button
