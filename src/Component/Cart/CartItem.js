@@ -15,7 +15,7 @@ export default class CartItem extends Component {
 						<i className="fas fa-times-circle text-danger mt-lg-4" onClick={() => inCart.deleteItem(this.props)} />
 					</Link>
 				</div>
-				<div className="col-10 mx-auto col-lg-2 w-10 h-10">
+				<div className="col-10 mx-auto col-lg-2 w-10 h-10 mb-2">
 					<div className="img-container">
 						<img className="img-fluid" src={this.props.img} />
 					</div>
