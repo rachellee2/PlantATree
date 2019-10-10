@@ -8,9 +8,9 @@ export default class CartSummary extends Component {
 			<div className="container">
 				<div className="row">
 					<div className="col-10 mt-5 mb-2 ml-sm-5 ml-md-auto col-sm-8 text capitalize text-right">
-						<h5 className="text-capitalize">
+						<h4 className="text-capitalize">
 							total price : $ {parseFloat(inCart.state.totalPrice.toFixed(2))}
-						</h5>
+						</h4>
 						<Link to="/paypal">
 							<button className="btn btn-success w-auto text-uppercase mt-1 mb-5">
 								proceed to checkout

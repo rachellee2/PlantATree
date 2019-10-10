@@ -3,7 +3,7 @@ import './css/stores.css';
 
 const Stores = () => {
     return(
-        <div className="container">
+        <div>
             <div className="main-wrapper">
                     <div className="branch-wrapper">
                         <div className="wrapper2">
@@ -28,9 +28,6 @@ const Stores = () => {
                             <br/>Phone: <a href="tel:090781458">09 789 1458</a>
                         </div>
                     </div>
-                </div>
-                <div className="footer">
-                    <center/>This is for footer
                 </div>
         </div>
     )

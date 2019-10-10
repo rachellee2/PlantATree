@@ -22,18 +22,18 @@ header {
 	height: 70%;
 	border-top: solid;
 }
-footer {
+/* footer {
 	background-color: #404040;
 	clear: both;
 	position: relative;
 	height: 2.5rem;
 	margin-top: -200px;
-}
-.wrapper1 {
+} */
+/* .wrapper1 {
 	margin: 0 auto 0;
 	width: 100%;
-	height: 106px;
-}
+  height: fit-content;
+} */
 .nav {
 	margin-top: 20px;
 	background-color: black;
