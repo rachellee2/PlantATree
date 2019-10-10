@@ -15,9 +15,9 @@ class App extends Component {
 				<div className="pageIndex">
 					<div id="AppCont3">
 						<h1 id="AppCont4">
-						<Link to="/" className="text-white text-decoration-none">
-						PlantATree
-						</Link>
+							<Link to="/" className="text-white text-decoration-none">
+								PlantATree
+							</Link>
 						</h1>
 						<Link id="AppCont5" to="/Register">
 							Register
@@ -60,15 +60,17 @@ class App extends Component {
 					<Route path="/item" component={ItemDetail} />
 					<Route path="/paypal" component={Paypal} />
 					<Route path="/ritemdetail" component={ItemDetail} />
-					<div className="w-100 mt-5"></div>
-				<footer class="footer-copyright text-center footer-green py-3 botton-0 letter-spacing-5">
-					<div>
-						<a href="/">TreeCo</a>
-						<span>&copy; 2019 PlantATree.</span>
-					</div>
-					<div class="ml-auto">| <span>Powered by</span> TreeCo | Copyright: Rachel Lee, YoonKun Lee, John Norvie Rosario, Bonita Ryda |
-					</div>
-				</footer>
+					<div className="w-100 mt-5" />
+					<footer className="footer-copyright text-center footer-green py-3 botton-0 letter-spacing-5">
+						<div>
+							<a href="/">TreeCo</a>
+							<span>&copy; 2019 PlantATree.</span>
+						</div>
+						<div className="ml-auto">
+							| <span>Powered by</span> TreeCo | Copyright: Rachel Lee, YoonKun Lee, John Norvie Rosario,
+							Bonita Ryda |
+						</div>
+					</footer>
 				</div>
 			</Router>
 		);
