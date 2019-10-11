@@ -6,7 +6,7 @@ const logIn = () => {
         <div>
                 <div id="container">
         
-        <div class="page_name">
+        <div className="page_name">
             <h3>SIGN IN</h3>
         </div>
     

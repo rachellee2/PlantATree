@@ -8,7 +8,7 @@ const Paypal = () => {
                     <label for="email"><b>Email</b></label>
                     <input type="text" placeholder="Enter Email" name="email" required></input>
                 </div>
-                <div class="container">
+                <div className="container">
                     <label for="password"><b>Password</b></label>
                     <input type="text" placeholder="Enter password" name="password" required></input>
                 </div>
