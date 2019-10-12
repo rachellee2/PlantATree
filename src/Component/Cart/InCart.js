@@ -12,6 +12,21 @@ export default class InCart extends Component {
 
 	testingMethod() {}
 
+	resetCart(){
+		console.log("cart length", inCart.state.item.length);
+		// for(var i=0;i<inCart.state.item.length;i++){
+		// 	console.log("item[i] ",inCart.state.item[i]);
+		// 	inCart.deleteItem(inCart.state.item[i]);
+		// 	console.log("inCart  ",inCart.state.item);
+		// }
+		inCart.state.item.map((item)=>{
+			inCart.deleteItem(item)
+		})
+		console.log("cart length", inCart.state.item.length);
+		// inCart = new InCart([],0.0);
+		return {inCart};
+	}
+
 	addToCart(item) {
 		console.log('ADDTOCART@@@@@');
 		item.isAdded = true;

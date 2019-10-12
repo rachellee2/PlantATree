@@ -17,7 +17,7 @@ export default class CartComp extends Component {
 		return (
 			<div>
 				<div>
-					<h2 className="text-uppercase mb-lg-5 mb-md-1 mb-sm-1 text-center">my cart</h2>
+					<h3 className="text-secondary text-uppercase mb-lg-4 pb-3 text-center border-bottom">cart</h3>
 				</div>
 				<ItemCols />
 				<CartList />
