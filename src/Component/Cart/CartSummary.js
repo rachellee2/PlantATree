@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 
 export default class CartSummary extends Component {
 	render() {
+		{
+			console.log('cart length', inCart);
+		}
 		return (
 			<div className="container">
 				<div className="row">
@@ -11,11 +14,37 @@ export default class CartSummary extends Component {
 						<h4 className="text-capitalize">
 							total price : $ {parseFloat(inCart.state.totalPrice.toFixed(2))}
 						</h4>
-						<Link to="/paypal">
-							<button className="btn btn-success w-auto text-uppercase mt-1 mb-5">
-								proceed to checkout
-							</button>
-						</Link>
+						<div>
+							<Link
+								to="/paypal"
+								style={
+									inCart.state.item.length == 0 ? (
+										{ pointerEvents: 'none' }
+									) : (
+										{ pointerEvents: 'auto' }
+									)
+								}
+							>
+								<button className="btn btn-success w-auto text-uppercase mt-1 mb-2 ml-2">
+									proceed to checkout
+								</button>
+							</Link>
+							<Link
+								to="/cart"
+								onClick={() => inCart.resetCart()}
+								style={
+									inCart.state.item.length == 0 ? (
+										{ pointerEvents: 'none' }
+									) : (
+										{ pointerEvents: 'auto' }
+									)
+								}
+							>
+								<button className="btn btn-danger w-auto text-uppercase mt-1 mb-5">
+									clear cart
+								</button>
+							</Link>
+						</div>
 					</div>
 				</div>
 			</div>

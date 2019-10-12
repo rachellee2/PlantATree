@@ -14,7 +14,7 @@ class App extends Component {
 			<Router>
 				<div className="pageIndex">
 					<div id="AppCont3">
-						<h1 id="AppCont4">
+						<h1 className="py-2 pl-2" id="AppCont4">
 							<Link to="/" className="text-white text-decoration-none">
 								PlantATree
 							</Link>
