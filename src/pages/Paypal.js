@@ -7,11 +7,11 @@ const Paypal = () => {
         <div>
                     <h1>ALREADY HAVE A PAYPAL ACCOUNT?!</h1>
                 <div className="container">
-                    <label for="email"><b>Email</b></label>
+                    <label htmlFor="email"><b>Email</b></label>
                     <input type="text" placeholder="Enter Email" name="email" required="Please fill this field."></input>
                 </div>
                 <div className="container">
-                    <label for="password"><b>Password</b></label>
+                    <label htmlFor="password"><b>Password</b></label>
                     <input type="text" placeholder="Enter password" name="password" required="Please fill this field."></input>
                 </div><Link to="/" onClick={()=>inCart.resetCart()}>
                 <button type="submit">Login</button></Link>

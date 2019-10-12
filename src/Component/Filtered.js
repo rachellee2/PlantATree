@@ -1,39 +1,36 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
 import { TreeList } from './Tree';
 
+// This class contains the list of trees to be displayed in the product page, and an integer value to represent whether the list is empty(1) or not(-1).
 export default class Filtered extends Component {
-  constructor(filter, isNone){
-    super();
-    this.state={
-      filter: filter,
-      isNone: isNone
-    }
-    // this.addTree().bind(this);
-  }
+	constructor(filter, noneResult) {
+		super();
+		this.state = {
+			filter     : filter,
+			noneResult : noneResult
+		};
+	}
 
-  addTree(tree){
-    console.log("tree in addTree() is ",tree);
-    console.log("filteredTrees", filteredTrees);
-    const tempList = [...filteredTrees.state.filter,tree];
-    console.log("tempList", tempList);
-    filteredTrees.state.filter=tempList;
-    filteredTrees.state.noneResult=-1;
-    return { filteredTrees };
-  }
+	// Adds a tree to the list.
+	addTree(tree) {
+		const tempList = [ ...filteredTrees.state.filter, tree ];
+		filteredTrees.state.filter = tempList;
+		filteredTrees.state.noneResult = -1;
+		return { filteredTrees };
+	}
 
-  reset(){
-    filteredTrees.state.filter=TreeList;
-    return { filteredTrees };
-  }
+	// Resets the list so that it contains all the trees.
+	reset() {
+		filteredTrees.state.filter = TreeList;
+		return { filteredTrees };
+	}
 
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
-  }
+	render() {
+		return <div />;
+	}
 }
 
-var filteredTrees= new Filtered(TreeList, -1);
+var filteredTrees = new Filtered(TreeList, -1);
+
 export { filteredTrees };

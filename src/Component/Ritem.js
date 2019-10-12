@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { inCart } from './Cart/InCart';
-import { Link } from 'react-router-dom';
 
+import { Link } from 'react-router-dom';
+import { inCart } from './Cart/InCart';
+
+// This class displays each item in the product page.
 export default class Ritem extends Component {
 	constructor(props) {
 		super(props);
@@ -11,18 +13,18 @@ export default class Ritem extends Component {
 		return (
 			<div className="col-9 mx-auto col-md-7 col-lg-3 my-3">
 				<div className="box mb-2">
-					{/* Image of the tree */}
+					{/* Image */}
 					<Link
 						to={{
 							pathname : '/ritemdetail',
 							item     : this.props
 						}}
 					>
-						<img src={this.props.state.img} />
+						<img src={this.props.state.img} alt="" />
 					</Link>
-
+					{/* Responsive Add To Cart button that is disabled if the tree is already added to the cart */}
 					<Link
-						to='/product' 
+						to="/product"
 						style={this.props.state.isAdded ? { pointerEvents: 'none' } : { pointerEvents: 'auto' }}
 					>
 						<button
@@ -35,7 +37,6 @@ export default class Ritem extends Component {
 							{this.props.state.isAdded ? 'Added' : 'add to cart'}
 						</button>
 					</Link>
-
 					{/* Name and price of the tree */}
 					<h6 className="text-center">{this.props.state.name}</h6>
 					<h6 className="text-center">$ {this.props.state.price}</h6>

@@ -19,10 +19,10 @@ const logIn = () => {
                 </div>
                 
                 <div  id="uname_input_cont">
-                    <label for="uname">Email (or username): <br/></label>
+                    <label htmlFor="uname">Email (or username): <br/></label>
                     <input type="text" placeholder="Enter Username" name="uname" required="Please fill this field."/>
 
-                    <label for="psw"><br/>Password:<br/></label>
+                    <label htmlFor="psw"><br/>Password:<br/></label>
                     <input type="password" placeholder="Enter Password" name="psw" required="Please fill this field."/>
                     
                     <button id="register_btn" class="btn" type="btn" name="btn" href="./Register.js">
