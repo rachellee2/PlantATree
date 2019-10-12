@@ -5,6 +5,7 @@ import './css/tips.css';
 
 const Advertisement = () => {
         return(
+            <div>
         <div className="main-wrapper">
             <div className="main-featured">
                 <div className="sub1">
@@ -16,6 +17,7 @@ const Advertisement = () => {
                     <img src={ad3} height="300px" width="900px"/> 
                 </div>
             </div>
+        </div>
         </div>
         )
     }

@@ -11,14 +11,6 @@ body{
 	grid-template-columns: 15% auto;
 	background-color: aquamarine;
 }
-
-.burger-menu{
-	display: none;
-}
-.container{
-	width: 100%;
-
-}
 .main-wrapper{
 	max-width: 1200px;
 	margin: auto;
@@ -86,18 +78,6 @@ body{
 	padding: 15px;
 }
 
-/* .footer{
-	
-	margin: auto;
-	margin-bottom: 0;
-	justify-content: center;
-	background-color: rgba(12, 163, 45, 0.2);
-	bottom: 0;
-	height: 4.9rem;
-	width: 100%;
-	
-} */
-
 
 /* TABLET MEDIA QUERY */
 
@@ -108,11 +88,6 @@ body{
 		grid-template-areas:
 		"branchHeader branchHeader branchHeader" 
 		"branch1 branch2 branch3"
-	}
-
-	.nav-wrapper{
-		grid-column: 1/5;
-		text-align: center;
 	}
 
 	.header-wrapper{
@@ -134,32 +109,6 @@ body{
 		"branch2 branch2 branch2"
 		"branch3 branch3 branch3"
 	}
-	.nav-wrapper{
-		grid-column: 1/5;
-		text-align: center;
-	}
-
-	.nav-wrapper ul{
-		padding: 0;
-		margin: 0;
-	}
-
-	.nav-wrapper ul li{
-		display: block;
-	}
-	.burger-menu{
-		display: inline-block;
-		justify-self: end;
-		grid-column: 4/5;
-		border: 2px solid #333;
-		color: #333;
-		padding: 10px;
-		font-weight: bold;
-		border-radius: 3px;
-	}
-	.burger-menu:hover{
-		cursor:pointer;
-	}
 
 	.branch1{
 		grid-area: branch1;
@@ -175,14 +124,6 @@ body{
 		grid-area: branch3;
 		min-height: 150px;
 		background-color: aqua;
-	}
-
-	.mobile-show{
-		display: block;
-	}
-	
-	.mobile-hide{
-		display: none;
 	}
 
 }
