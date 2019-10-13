@@ -1,6 +1,12 @@
 import React from 'react';
 import './css/stores.css';
 
+/**
+ * Store page: One of the main page of the app.
+ * Displays responsive view of the three branches/stores of the Company.
+ * Used css file and bootstrap for styling.
+ */
+
 const Stores = () => {
 	return (
 		<div>
