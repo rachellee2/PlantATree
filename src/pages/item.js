@@ -6,6 +6,7 @@ import { Description_List } from '../Component/Description.js'
 
 const item = () => {
     return(
+        //Create iteam page that show selected Tree description and details 
         <div id="main">
             <div id="p_cont15">
                 <h1 >{TreeList[check.state.selected].state.name}</h1>
