@@ -5,7 +5,13 @@ import ad2 from './images/ad2.JPG';
 import ad3 from './images/ad3.JPG';
 import './css/homestyle.css';
 
-
+/**
+ * Home Page return:
+ * Images for Advertisement, Special, and Tips
+ * Which redirect to pages accordingly when clicked/pressed.
+ * Importing images from images folder.
+ * Using Bootstrap and css local files as styles.
+ */
 
 const Home = () => {
         return(
