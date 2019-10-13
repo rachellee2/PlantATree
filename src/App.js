@@ -2,19 +2,18 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Home, Special, Stores, Register, logIn, Paypal } from './pages';
 import CartComp from './Component/Cart/CartComp';
-import { inCart } from './Component/Cart/InCart';
+import { filteredTrees } from './Component/Filtered';
 import RitemList from './Component/RitemList';
 import ItemDetail from './Component/ItemDetail';
 import './App.css';
 
 class App extends Component {
 	render() {
-		let cartCount = inCart.state.item.length;
 		return (
 			<Router>
 				<div className="pageIndex">
 					<div id="AppCont3">
-						<h1 id="AppCont4">
+						<h1 className="py-2 pl-2" id="AppCont4">
 							<Link to="/" className="text-white text-decoration-none">
 								PlantATree
 							</Link>
@@ -22,10 +21,10 @@ class App extends Component {
 						<Link id="AppCont5" to="/Register">
 							Register
 						</Link>
-						<h4 id="AppCont5"> / </h4>
-						<Link id="AppCont5" to="/logIn">
+						{/* <h4 id="AppCont5"> / </h4> */}
+						{/* <Link id="AppCont5" to="/logIn">
 							log In
-						</Link>
+						</Link> */}
 					</div>
 
 					<nav className="wrapper1">
@@ -35,7 +34,7 @@ class App extends Component {
 									<Link to="/">Home</Link>
 								</li>
 								<li id="AppCont1">
-									<Link to="/product">Product</Link>
+									<Link to="/product" onClick={()=> filteredTrees.reset()}>Product</Link>
 								</li>
 								<li id="AppCont1">
 									<Link to="/special">Special</Link>
