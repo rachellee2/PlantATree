@@ -1,6 +1,14 @@
 import React from 'react';
 import { TreeList } from '../Component/Tree.js';
 
+/**
+ * Special page which was supposed to display different special events such as:
+ * Seasonal event e.g. Winter Special which display special prices for winter trees.
+ * 
+ * The page was also got left behind due to circumstances.
+ * Uses bootstrap for styling.
+ */
+
 const Special = () => {
 	return (
 		<div>
