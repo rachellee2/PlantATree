@@ -10,6 +10,8 @@ import cypress_img from '../images/cypress.jpg';
 import rose_img from '../images/rose.jpg';
 import viburnum_img from '../images/viburnum.jpg';
 
+//This is for tree data 
+//Each Tree contains img path so that reust it in another js file 
 export default class Tree extends Component {
 	constructor(id, name, type, soil, sun, maintain, height, growthRate, price, img, description, isAdded) {
 		super();
