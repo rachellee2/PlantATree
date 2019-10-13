@@ -1,30 +1,25 @@
 import React, { Component } from 'react';
+
 import ItemCols from './ItemCols';
 import CartList from './CartList';
 import CartSummary from './CartSummary';
-import { inCart } from './InCart';
 
+// This class contains and displays cart related components such as column names, the list of cart items, and cart summary.
 export default class CartComp extends Component {
 	constructor(props) {
 		super(props);
 	}
 
 	render() {
-		// {console.log("In Cart: ",this.props)}
-		{
-			console.log('inCart component has in CartComp: ', inCart);
-		}
 		return (
 			<div>
 				<div>
-					<h2 className="text-uppercase mb-lg-5 mb-md-1 mb-sm-1 text-center">my cart</h2>
+					<h3 className="text-secondary text-uppercase mb-lg-4 pb-3 text-center border-bottom">cart</h3>
 				</div>
-				<ItemCols />
+				<ItemCols /> 
 				<CartList />
 				<CartSummary />
 			</div>
 		);
 	}
 }
-
-// cart constructor
