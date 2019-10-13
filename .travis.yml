@@ -8,6 +8,3 @@ script:
   - echo 'Installing Deps!'
   - echo 'Testing!'
   - npm run test
-deploy:
-  on:
-    branch: master
