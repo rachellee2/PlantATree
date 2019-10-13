@@ -10,4 +10,4 @@ script:
   - npm run test
 deploy:
   on:
-    branch: Bonita_Final
+    branch: master

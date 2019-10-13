@@ -1,12 +1,7 @@
-.container{
-	width: 1200px;
-	margin: auto;
-	padding: 0;
-}
-.burger-menu{
-	display: none;
-}
-
+  
+/*
+* Css file to help style Home page contents.
+*/
 .main-wrapper{
 	max-width: 100%;
 	margin: 0 auto;
@@ -17,19 +12,3 @@ img{
 	width: 100%;
 	height: 100%;
 }
-
-.ads-wrapper{
-	max-width: 70%;
-	margin: auto;
-	min-height: 300px;
-}
-
-/* .footer{
-	display: grid;
-	margin: auto;
-	justify-content: center;
-	background-color: rgba(12, 163, 45, 0.2);
-	bottom: 0;
-	height: 5.5rem;
-	width: 100%;
-} */

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// This class displays the column names of the cart page.
 export default class ItemCols extends Component {
 	render() {
 		return (
